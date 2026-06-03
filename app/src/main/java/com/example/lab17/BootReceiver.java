@@ -1,0 +1,18 @@
+package com.example.lab17;
+
+import android.content.BroadcastReceiver;
+import android.content.Context;
+import android.content.Intent;
+import android.widget.Toast;
+
+public class BootReceiver extends BroadcastReceiver {
+    @Override
+    public void onReceive(Context context, Intent intent) {
+        // Support de l'action système et de l'action de test _mouad
+        if (Intent.ACTION_BOOT_COMPLETED.equals(intent.getAction()) || 
+            "com.example.lab17.TEST_BOOT".equals(intent.getAction())) {
+
+            Toast.makeText(context, "Téléphone démarré _mouad - Receiver statique activé !", Toast.LENGTH_LONG).show();
+        }
+    }
+}

@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/main_mouad"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="20dp"
+    android:gravity="center"
+    android:background="@color/background_mouad">
+
+    <TextView
+        android:id="@+id/tvTitle_mouad"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Lab Broadcast Receivers - _mouad"
+        android:textSize="22sp"
+        android:textStyle="bold"
+        android:textColor="@color/primary_mouad"
+        android:layout_marginBottom="30dp"/>
+
+    <TextView
+        android:id="@+id/tvStatus_mouad"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Status : En attente..."
+        android:textSize="18sp"
+        android:textColor="@color/text_mouad"
+        android:layout_marginBottom="20dp"/>
+
+    <Button
+        android:id="@+id/btnToggleAirplane_mouad"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Activer Receiver Avion"
+        android:backgroundTint="@color/primary_mouad"
+        android:textColor="@color/white"
+        android:layout_marginBottom="10dp"/>
+
+    <Button
+        android:id="@+id/btnSendCustom_mouad"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Envoyer Custom Broadcast"
+        android:backgroundTint="@color/accent_mouad"
+        android:textColor="@color/primary_mouad" />
+
+    <TextView
+        android:id="@+id/tvCredits_mouad"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Réalisé par CHARRAJ Mouad (ZERO-XR7)"
+        android:layout_marginTop="40dp"
+        android:textSize="12sp"
+        android:textColor="@color/primary_mouad"/>
+
+</LinearLayout>
