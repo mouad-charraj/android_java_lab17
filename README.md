@@ -1,3 +1,7 @@
+
+
+
+
 # Lab Broadcast Receivers - CHARRAJ Mouad
 
 Ce projet illustre l'utilisation des Broadcast Receivers sous Android (statiques et dynamiques).
@@ -13,4 +17,4 @@ Realise par CHARRAJ Mouad aka ZERO-XR7
 ## Demonstration Video
 
 
-
+https://github.com/user-attachments/assets/d243d584-9e4e-448e-b381-8e9bee5fc6a7
